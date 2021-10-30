@@ -44,21 +44,6 @@ class ToDoList {
         //            return p.name == name
         print("done")
     }
-//
-//        func sortToDoList(){
-//
-//            let arrayList = ToDoList.sorted(by: { firstToDo, secondToDo in
-//              if let firstDate = firstToDo.deadline, let secondDate = secondToDo.deadline {
-//                return firstDate < secondDate
-//              } else {
-//                return false
-//              }
-//            })
-//          }
-    
-//        let sortedArray = todo.sort({ $0.deadline.compare($1.deadline) == NSComparisonResult.OrderedDescending})
-//        }
-    
 }
 
 

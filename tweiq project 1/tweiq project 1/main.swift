@@ -34,29 +34,28 @@ while(userInput != 0) {
         ToDoList.addNewToDo(todo: newTodo)
         
     }
-
-else if userInput == 2 {
-    print("index is:", terminator: "")
-    let index = Utils.readInt()
-    print("name is:", terminator: "")
-    let name = Utils.readString()
-    print("description is:", terminator: "")
-    let desc = Utils.readString()
-    print("deadline is:", terminator: "")
-    let deadline = Utils.readString()
-    ToDoList.editToDo(index: index, newName: name, newDescription: desc, newDeadline: deadline)
-}
+    
+    else if userInput == 2 {
+        print("index is:", terminator: "")
+        let index = Utils.readInt()
+        print("name is:", terminator: "")
+        let name = Utils.readString()
+        print("description is:", terminator: "")
+        let desc = Utils.readString()
+        print("deadline is:", terminator: "")
+        let deadline = Utils.readString()
+        ToDoList.editToDo(index: index, newName: name, newDescription: desc, newDeadline: deadline)
+    }
     else if userInput == 3 {
         ToDoList.checkToDo()
     }
     else if userInput == 4 {
         print("index is:", terminator: "")
         let id = Utils.readInt()
-//        let newTodo = ToDo.init(name: name, description: description, deadline: nil)
         ToDoList.removeToDo(id:id)
     }
-else {
-    print("invallid input press again")}
+    else {
+        print("invallid input press again")}
 }
 
 
