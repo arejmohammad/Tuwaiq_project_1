@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8205AB632721A58E00841F03 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8205AB622721A58E00841F03 /* main.swift */; };
+		82FCE8CF2725B145004E56E3 /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FCE8CE2725B145004E56E3 /* ToDoList.swift */; };
+		82FCE8D42725BEEF004E56E3 /* utlis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FCE8D32725BEEF004E56E3 /* utlis.swift */; };
+		82FCE8DA2726ED83004E56E3 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FCE8D92726ED83004E56E3 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		8205AB5F2721A58E00841F03 /* tweiq project 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "tweiq project 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8205AB622721A58E00841F03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		82FCE8CE2725B145004E56E3 /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
+		82FCE8D32725BEEF004E56E3 /* utlis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utlis.swift; sourceTree = "<group>"; };
+		82FCE8D92726ED83004E56E3 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,20 @@
 		8205AB612721A58E00841F03 /* tweiq project 1 */ = {
 			isa = PBXGroup;
 			children = (
+				82FCE8D02725B14F004E56E3 /* List */,
 				8205AB622721A58E00841F03 /* main.swift */,
+				82FCE8D32725BEEF004E56E3 /* utlis.swift */,
 			);
 			path = "tweiq project 1";
+			sourceTree = "<group>";
+		};
+		82FCE8D02725B14F004E56E3 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				82FCE8CE2725B145004E56E3 /* ToDoList.swift */,
+				82FCE8D92726ED83004E56E3 /* ToDo.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8205AB632721A58E00841F03 /* main.swift in Sources */,
+				82FCE8CF2725B145004E56E3 /* ToDoList.swift in Sources */,
+				82FCE8D42725BEEF004E56E3 /* utlis.swift in Sources */,
+				82FCE8DA2726ED83004E56E3 /* ToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
